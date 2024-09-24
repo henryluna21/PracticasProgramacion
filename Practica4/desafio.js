@@ -19,6 +19,7 @@ function procesarPedido(pedido) {
 // Simulamos un pedido de comida
 procesarPedido("Pizza Margherita")
     .then((mensajeExito) => {
+        
         console.log(mensajeExito); // Si el pedido tiene éxito
     })
     .catch((mensajeError) => {
